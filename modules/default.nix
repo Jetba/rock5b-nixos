@@ -37,7 +37,6 @@
       imports = [
         self.nixosModules.apply-overlay
         self.nixosModules.kernel
-        self.nixosModules.panfork
         self.nixosModules.fan-control
       ];
     };
